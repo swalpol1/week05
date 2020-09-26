@@ -1,0 +1,31 @@
+div.textcolumn {
+    box-sizing: border-box;
+    border:1px solid black;
+}
+
+div.imageContainer {
+    width:80%;
+    margin: 0 auto 0 auto;
+}
+
+
+div.imageContainer img {
+    width:100%;
+    
+}
+ 
+@media screen and (min-width: 800px) {
+    div.textcolumn { column-count: 2}
+}
+
+@media screen and (min-width: 800px) {
+    div.textcolumn { column-count: 3}
+    div.imageContainer {
+    display: inline-block;
+    width: 49%;
+}    
+}
+
+p{
+    text-align: center;
+}
